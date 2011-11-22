@@ -1,0 +1,1 @@
+for i in `find . \( ! -regex '.*/\..*' \) -type f`; do svn propset svn:mime-type text/plain $i; done

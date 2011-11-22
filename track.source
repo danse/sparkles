@@ -1,0 +1,10 @@
+sep="___________________________________________"
+log="/home/sebastiano/time/log"
+clear;
+while read line;
+ do echo "$(date) - $line">>$log;
+ echo $(date);
+ echo;
+ done;
+echo "$(date)${sep}">>$log
+echo>>$log
