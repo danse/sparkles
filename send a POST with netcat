@@ -1,6 +1,8 @@
+Where lenght can be obtained by a wc on the XML part
+
 $ nc {host} {port} < Request
 $ cat Request
-POST {path} HTTP/1.1
+POST /{path} HTTP/1.1
 Host: {host}
 Content-Type: text/xml
 Accept: text/html
