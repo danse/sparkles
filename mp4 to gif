@@ -1,0 +1,5 @@
+mkdir frames
+ffmpeg -i Screencast\ 2015-12-16\ 17\:06\:34.mp4 -r 5 'frames/frame-%03d.jpg'
+cd frames/
+convert -delay 20 -loop 0 *.jpg myimage.gif
+lt -h myimage.gif
