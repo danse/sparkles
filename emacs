@@ -1,5 +1,8 @@
 find in multiple files: grep-find
-replace in multiple files: find-dired, t or *t, Q, then Y replaces everywhere, C-s, ! saves everywhere
+
+#### replace in multiple files
+
+find-dired, t or *t, Q, then Y replaces everywhere, C-s, ! saves everywhere
 
 ----
 
