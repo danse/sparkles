@@ -1,2 +1,0 @@
-gateway@caronte04 ~ $ s=( 4880101 4880104 4882008 4898984 4868689 )
-gateway@caronte04 ~ $ for n in ${s[@]}; do mamd.vodafone.it"$n" restart; done
