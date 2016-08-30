@@ -1,0 +1,1 @@
+git diff --names-only # only names of affected files
