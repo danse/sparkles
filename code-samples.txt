@@ -1,0 +1,11 @@
+https://github.com/danse/opwer/ (Haskell) a command line tool to
+search jobs on Upwork
+
+https://github.com/eHealthAfrica/sense-dispatch (Javascript) a
+microservice in Node written in a functional reactive style with Bacon
+
+https://github.com/danse/exmargination/blob/master/ToTimeSeries.hs
+(Haskell) a type class to convert data to time series
+
+https://github.com/danse/simple-component (Javascript) a simple
+component in React and D3 written in a weekend for a client on Upwork
