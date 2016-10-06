@@ -9,3 +9,7 @@ https://github.com/danse/exmargination/blob/master/ToTimeSeries.hs
 
 https://github.com/danse/simple-component (Javascript) a simple
 component in React and D3 written in a weekend for a client on Upwork
+
+https://github.com/danse/crumbs/blob/master/src/Main.purs (Purescript)
+simple Purescript code integrating in a legacy Javascript/jQuery
+codebase
