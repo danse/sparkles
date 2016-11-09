@@ -20,4 +20,7 @@ done
 #### Exclude pattern
 
     ls !(dir)
-    
+
+#### Process pipes
+
+    ls | while read path; do echo $path; done
