@@ -1,15 +1,26 @@
-https://github.com/danse/opwer/ (Haskell) a command line tool to
-search jobs on Upwork
+- Opwer https://github.com/danse/opwer (Haskell)
+A command-line script to query Upwork for jobs using search parameters not available on the web interface
 
-https://github.com/eHealthAfrica/sense-dispatch (Javascript) a
-microservice in Node written in a functional reactive style with Bacon
+- Dispatch https://github.com/eHealthAfrica/sense-dispatch (Javascript)
+A microservice reacting to events on a Couch database and sending SMS messages, written using functional reactive logic in Bacon
 
-https://github.com/danse/exmargination/blob/master/ToTimeSeries.hs
-(Haskell) a type class to convert data to time series
+- ToTimeSeries https://github.com/danse/exmargination/blob/master/ToTimeSeries.hs (Haskell)
+A type class and functions to convert temporal data into type series
 
-https://github.com/danse/simple-component (Javascript) a simple
-component in React and D3 written in a weekend for a client on Upwork
+- Citizendesk https://github.com/danse/citizendesk-frontend (Javascript)
+Non trivial Angular app where i could achieve 100% code coverage by developing driven by tests. I also developed the backend in Flask for this
 
-https://github.com/danse/crumbs/blob/master/src/Main.purs (Purescript)
-simple Purescript code integrating in a legacy Javascript/jQuery
-codebase
+- Simple React component https://github.com/danse/simple-component (Javascript)
+Quick weekend experiment wrapping a D3 chart in a React component, adding full-text search on the client side and querying an API
+
+- Crumbs https://github.com/danse/crumbs/blob/master/src/Main.purs (Purescript)
+Simple Purescript code integrating in a legacy Javascript/jQuery codebase
+
+- Pangolin https://github.com/danse/pangolin/blob/master/src/Main.purs (Purescript)
+Just the start of a time tracker in React-Thermite
+
+- Doctest https://github.com/davidchambers/doctest (Coffeescript)
+This is my main non-paid contribution to somebody else's open-source project, even though i really worked on it just a little several years ago
+
+- Ecotracks https://github.com/danse/ecotracks/blob/master/data/Main.hs (Haskell)
+Old conversion script for data coming from the World Bank, shows use of libraries in anger, not very clean
