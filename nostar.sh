@@ -1,1 +1,1 @@
-f=/tmp/2017-01-27T11:10:27+01:00; wget 'https://api.github.com/search/repositories?q=forks>1&sort=forks&order=desc&since=daily' -O /tmp/2017-01-27T11:08:19+01:00 && less /tmp/2017-01-27T11:08:19+01:00
+f=/tmp/$(date -Iseconds); wget 'https://api.github.com/search/repositories?q=forks>1&sort=forks&order=desc&since=daily' -O "$f" && less "$f"
