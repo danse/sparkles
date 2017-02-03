@@ -28,3 +28,6 @@ ifMonadic = do
     else
       do
         somethingElse
+
+-- `Single` and `Multiple` are data constructors. They are necessary
+data Argument = Single Int | Multiple [Int]
