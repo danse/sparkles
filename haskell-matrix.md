@@ -1,3 +1,7 @@
+#### Accelerate
+> <http://www.acceleratehs.org>
+Released more recently than the other options below
+
 #### Vector
 > <https://github.com/haskell/vector>
 It also has a detailed tutorial on the Haskell wiki
