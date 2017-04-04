@@ -12,3 +12,6 @@ Install:
 
     ~ $ nix-channel --update
     ~ $ nix-env --upgrade
+
+Note that, after these commands, i got Nix actually updating just
+after i logged into a Nix shell
