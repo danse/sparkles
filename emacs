@@ -27,3 +27,9 @@ replace-string
 insert literal character: C-q
 
 `global-auto-revert-mode`: reload all files when they change
+
+----
+
+rename file:
+  dired-jump
+  R
