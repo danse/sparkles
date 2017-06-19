@@ -1,4 +1,4 @@
--- Haskell as a spreadsheet
+-- code as a spreadsheet
 import Control.Monad (mapM)
 import Data.Monoid ((<>))
 
@@ -7,7 +7,7 @@ instance Show Share where
   show (Share l a) = l <> " " <> show a
 
 personal = [Share "social" (1/4), -- twitter, facebook, slack
-            Share "study" (1/2), -- code, study, tech
+            Share "learn" (1/2), -- code, study, tech, writing
             Share "other" (1/4)]
 
 clients = Share "clients" (4/5)
