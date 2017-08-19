@@ -15,3 +15,9 @@ Install:
 
 Note that, after these commands, i got Nix actually updating just
 after i logged into a Nix shell
+
+#### Remove packages
+
+    nix-env -e <package name>
+
+This is supposed to show some output about the removed package
