@@ -17,6 +17,9 @@ execute macro: C-x e
 
 set bookmark:     C-x r m
 jump to bookmark: C-x r b
+list bookmarks:   C-x r l
+
+mark and delete like in dired
 
 ----
 
