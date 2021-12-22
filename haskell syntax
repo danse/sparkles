@@ -1,0 +1,61 @@
+
+{-# LANGUAGE OverloadedStrings, DeriveDataTypeable #-}
+
+fieldApply f r = r { field = f (field r) }
+
+data Tree a = Leaf a | Branch [Tree a]
+
+{-# LANGUAGE OverloadedStrings, DeriveDataTypeable #-}
+
+type FirstName = String
+newtype Work = W String
+
+instance Monoid [a] where
+        mempty  = []
+
+data Argument = Single Int | Multiple [Int]
+-- `Single` and `Multiple` are data constructors. They are necessary
+
+guarded something
+  | condition something = result
+  | otherwise           = somethingElse
+
+f a =
+  let b = a * 2
+  in b + a
+
+-XNamedFieldPuns
+f (C {a}) = a
+https://downloads.haskell.org/~ghc/6.12.1/docs/html/users_guide/syntax-extns.html#record-puns
+
+class Functor f => Applicative f where
+  pure  :: a -> f a
+  infixl 4 <*>
+  (<*>) :: f (a -> b) -> f a -> f b
+
+module Parent.Module
+  ( Module (..)
+  , someFunction
+  ) where
+
+combine :: Inline -> Inl ()
+combine i = do
+  outer <- gets stOuter
+  case (outer, i) of
+    (Link _ _ _, _)    -> collapse i
+    (Strong _, Emph _) -> collapse i
+    (Emph _, Strong _) -> emerge i
+    (_, Link _ _ _)    -> emerge i
+    (_, _)             -> collapse i
+
+-- in the following case, the indentation provided by `haskell-mode`
+-- will be uglier
+ifMonadic = do
+  somethingMonadic
+  if somethingIf
+    then
+      do
+        somethingThen
+    else
+      do
+        somethingElse

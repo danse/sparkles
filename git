@@ -1,0 +1,16 @@
+
+git clone --depth 1 ...
+
+git push --delete origin refactoring
+
+git clean -df
+
+# rebase up to the first commit in the current or specified branch
+git rebase -i --root master
+
+# remove files from the history
+git filter-branch --index-filter 'git rm -r --cached --ignore-unmatch <file>' --prune-empty -f -- --all
+
+# only names of affected files
+git diff --names-only
+git log  --name-only

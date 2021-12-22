@@ -1,0 +1,41 @@
+function timeout(duration = 0) {
+    return new Promise((resolve, reject) => {
+        setTimeout(resolve, duration);
+    })
+}
+var p = timeout(1000).then(() => {
+    return timeout(2000);
+}).then(() => {
+    throw new Error("hmm");
+}).catch(err => {
+    return Promise.all([timeout(100), timeout(200)]);
+})
+`let` is the new `var`
+f(...a)               // spread
+function f(x, ...y){} // rest
+function f(x, y=23){} // default
+
+// Destructuring + defaults arguments
+function r({x, y, w = 10, h = 10}) {
+  return x + y + w + h;
+}
+r({x:1, y:2}) === 23
+fail-soft destructuring with default
+// Construct an HTTP request prefix is used to interpret the replacements and construction
+GET`http://foo.org/bar?a=${a}&b=${b}
+    Content-Type: application/json
+    X-Credentials: ${credentials}
+    { "foo": ${foo},
+      "bar": ${bar}}`(myOnReadyStateChangeHandler);
+`
+hello ${name}!
+`
+> prototyped = { __proto__: {name:"prototype"}}
+{}
+> prototyped.name
+'prototype'
+class Something extends THREE.Mesh {
+ constructor () {}
+ update(part) { super.update(); }
+}
+arrows: v => {}

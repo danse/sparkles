@@ -1,0 +1,19 @@
+
+
+bbc.github.io/rcookbook
+r4ds.had.co.nz/graphics-for-communication.html
+r4ds.had.co.nz/data-visualisation.html
+
+ggplot(m, aes(day, done))
+ + geom_jitter(height=2, width=2)
+
+ggplot(m, aes(rev(1:nrow(m)), done))
+ + geom_line()
+
+ggplot(m, aes(done, time, colour=ergo))
+ + geom_point()
+
+data camp
+ggplot2-exts.org/gallery
+https://www.statmethods.net/advgraphs/ggplot2.html
+r4ds.had.co.nz
