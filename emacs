@@ -59,3 +59,4 @@ font-lock-mode
 
 replace-string
 
+find-file-at-point
