@@ -1,0 +1,8 @@
+
+preambolo per un file `.lhs` convertito
+
+\documentclass[10pt]{article}
+\usepackage{verbatim}
+\begin{document}
+\newenvironment{code}{\footnotesize\verbatim}{\endverbatim\normalsize}
+

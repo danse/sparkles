@@ -4,6 +4,11 @@ bbc.github.io/rcookbook
 r4ds.had.co.nz/graphics-for-communication.html
 r4ds.had.co.nz/data-visualisation.html
 
+install.packages("tidyverse")
+library(tidyverse)
+
+ggplot(d, aes(time, value)) + geom_point()
+
 ggplot(m, aes(day, done))
  + geom_jitter(height=2, width=2)
 
