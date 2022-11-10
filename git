@@ -14,3 +14,6 @@ git filter-branch --index-filter 'git rm -r --cached --ignore-unmatch <file>' --
 # only names of affected files
 git diff --names-only
 git log  --name-only
+
+git branch --list --sort=creatordate
+.git/info/exclude
